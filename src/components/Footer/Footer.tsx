@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Footer = styled.footer`
+const FooterContainer = styled.footer`
   background-color: #1a1a1a;
   color: #ffffff;
   padding: 3rem 0;
@@ -31,13 +31,13 @@ const FooterLinks = styled.div`
 
 export default function Footer() {
   return (
-    <Footer>
+    <FooterContainer>
       <FooterContent>
         <FooterText> 2024 Sitia. Tous droits rservs.</FooterText>
         <FooterLinks>
           {/* Les liens sociaux seront ajoutés ici plus tard */}
         </FooterLinks>
       </FooterContent>
-    </Footer>
+    </FooterContainer>
   );
 }
